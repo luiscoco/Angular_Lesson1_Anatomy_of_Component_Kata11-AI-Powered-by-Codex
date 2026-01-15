@@ -1,0 +1,29 @@
+.widget {
+  border: 1px solid #dde5ed;
+  border-radius: 10px;
+  padding: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(9, 30, 66, 0.08);
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.value {
+  font-weight: 600;
+}
+
+.note {
+  margin: 0 0 6px;
+  color: #425466;
+}
+
+.di {
+  margin: 0;
+  color: #7b8794;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,17 @@
+<!--
+Component Tree:
+App
++- Dashboard
+   +- Widget
+-->
+<main class="app-shell">
+  <header>
+    <h1>{{ title() }}</h1>
+    <p>Top-down data flow and child injector context.</p>
+  </header>
+
+  <app-dashboard
+    [title]="title()"
+    [widgets]="widgets"
+  />
+</main>

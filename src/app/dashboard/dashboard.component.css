@@ -1,0 +1,18 @@
+.dashboard {
+  border: 1px solid #c9d1d9;
+  border-radius: 12px;
+  padding: 16px;
+  background: #f8fafc;
+}
+
+.hint {
+  margin: 0 0 12px;
+  color: #52606d;
+  font-size: 0.9rem;
+}
+
+.widgets {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}

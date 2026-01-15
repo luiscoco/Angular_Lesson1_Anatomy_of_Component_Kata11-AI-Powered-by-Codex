@@ -1,0 +1,13 @@
+<section class="dashboard">
+  <h2>{{ title }} Dashboard</h2>
+  <p class="hint">DI token set here: {{ dashboardContextValue }}</p>
+
+  <div class="widgets">
+    <app-widget
+      *ngFor="let widget of widgets; trackBy: trackById"
+      [name]="widget.name"
+      [value]="widget.value"
+      [note]="widget.note"
+    />
+  </div>
+</section>
