@@ -2,6 +2,24 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.0.
 
+## Kata11 Prompt
+
+```
+Kata 11 — Tree Thinking
+Task:
+Create a 3-level component hierarchy:
+App → Dashboard → Widget
+Pass data top-down and observe DI behavior.
+Constraints:
+•	No services initially
+•	Pure component composition
+Deliverable:
+•	Tree diagram as comment
+•	Working data flow
+Reflection Trigger:
+Why does this scale better than “pages”?
+```
+
 ## Development server
 
 To start a local development server, run:
